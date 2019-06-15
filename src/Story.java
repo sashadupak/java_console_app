@@ -60,7 +60,7 @@ public class Story {
             file_name = args[0];
         }
         else {
-            file_name = "data.json";
+            file_name = "simple_data.json";
         }
         enter.load(file_name);
         Runtime r = Runtime.getRuntime();
